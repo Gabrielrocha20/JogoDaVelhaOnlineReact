@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  background-color: #282c34;
+}
+.App-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.border-to-left {
+  border-top-left-radius: 10px;
+}
+.border-bo-left {
+  border-bottom-left-radius: 10px;
+}
+.border-to-right {
+  border-top-right-radius: 10px;
+}
+.border-bo-right {
+  border-bottom-right-radius: 10px;
+}
+
+.inline {
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  margin: 0px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+  
+.app-tictoc {
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 700px;
+  position: relative;
+  margin-top: 20px;
+}
+.grid-tictoc {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.blocks-tictoc {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.blocks-tictoc h2 {
+  font-size: 100px;
+  position: absolute;
+}
+
+.players-content {
+  background-color: rgb(190, 185, 185);
+  width: 200px;
+  height: 700px;
+  text-align: center;
+  margin-top: 20px;
+}
+.players-content h3 {
+  margin-top: 200px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fila-container {
+  background-color: rgb(195, 195, 207);
+  position: absolute;
+  width: 800px;
+  height: 100px;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.players-fila {
+  margin-right: 100px;
+}
+.button-content {
+  width: 150px;
+  height: 30px;
+}
+.button-content:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.user-form {
+  position: absolute;
+  left: 280px;
+  top: 10px;  
+}
+
+.user-form input {
+  width: 150px;
+  height: 20px;
+}
+.user-form button {
+  width: 80px;
+  height: 25px;
+}
+
+.user-form label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
